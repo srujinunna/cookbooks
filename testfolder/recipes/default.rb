@@ -6,6 +6,7 @@
 
 file '/tmp/srujana' do
 
-      content "Test folder to use the commands with git"
+      content "This folder to use the commands with git"
 end
-    
+  
+  
