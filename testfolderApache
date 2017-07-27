@@ -1,0 +1,10 @@
+package 'httpd' do
+  package_name "httpd"
+  action :install
+end
+
+Service 'httpd' do
+     action [:start, :enable]
+end     
+     
+                          
